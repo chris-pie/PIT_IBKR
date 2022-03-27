@@ -10,7 +10,7 @@ for year in result:
     print(f"{year}:")
     revenue, cost = 0, 0
     for country in result[year]:
-        print(f"Dochód w {country}: {str(result[year][country][0] - result[year][country][1])}")
+        print(f"\tDochód w {country}: {str(result[year][country][0] - result[year][country][1])}")
         revenue += result[year][country][0]
         cost += result[year][country][1]
     print(f"\tPrzychód: {revenue}")
