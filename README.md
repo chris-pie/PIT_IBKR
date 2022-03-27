@@ -19,3 +19,5 @@ Przychody i Koszta za kolejne lata (pozycje 21 i 22 w PIT-38)
 Dochody z innych krajów (pozycja 32 w PIT/ZG)
 
 Jeśli jako kraj jest podana nazwa giełdy lub inny symbol (np BVME, EUDARK) oznacza to że w skrypcie ta giełda nie ma przypisanego kraju. W takim wypadku należy skonsultować się z listą giełd na stronie IBKR: https://www.interactivebrokers.com/en/index.php?f=1562
+
+OBECNIE NIE OBLICZA DYWIDEND ANI TRANZAKCJI FOREX.
