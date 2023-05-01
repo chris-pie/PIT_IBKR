@@ -98,7 +98,7 @@ class IBKRCalc:
                 if line[0] == "Trades" and line[1] == "Data" and line[2] == "Trade":
                     date = datetime.datetime.strptime(line[6], "%Y-%m-%d, %H:%M:%S").date()
                     if date not in self.ranges:
-                        quantity = Decimal(line[8].replace(",", "."))
+                        quantity = Decimal(line[8].replace(",", ""))
                         proceeds = Decimal(line[11])
                         fee = Decimal(line[12])
                         currency = line[4]
